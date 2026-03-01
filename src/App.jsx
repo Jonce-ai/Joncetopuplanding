@@ -83,10 +83,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-2">
-              <div className="flex items-center border-[2px] border-black font-bold text-xl tracking-tighter shadow-[2px_2px_0px_rgba(0,0,0,1)]">
-                <span className="bg-white text-[#FFD700] px-3 py-0.5">JONCE</span>
-                <span className="bg-black text-white px-3 py-0.5">TOPUP</span>
-              </div>
+              <img src="/logo.png" alt="Jonce Topup Logo" className="h-12" />
             </div>
             <div className="hidden md:flex items-center gap-6">
               <span className="text-xs font-black tracking-widest text-slate-900 uppercase">Instant Data • Zero Stress</span>
@@ -273,10 +270,7 @@ export default function App() {
       <footer className="bg-black text-white py-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="flex flex-col items-center gap-6">
-            <div className="flex items-center border-[2px] border-[#FFD700] font-black text-2xl tracking-tighter">
-              <span className="bg-[#FFD700] text-black px-4 py-1">JONCE</span>
-              <span className="bg-transparent text-[#FFD700] px-4 py-1">TOPUP</span>
-            </div>
+            <img src="/logo.png" alt="Jonce Topup Logo" className="h-16" />
             <p className="text-[#FFD700] text-sm font-black uppercase tracking-[0.4em]">
               INSTANT DATA. ZERO STRESS.
             </p>
